@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.asahi.presentation.fragments.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash">
+
+        <action
+            android:id="@+id/action_splashFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/action_splashFragment_to_authFragment"
+            app:destination="@id/authFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.asahi.presentation.fragments.onboarding.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+
+        <action
+            android:id="@+id/action_viewPagerFragment_to_authFragment"
+            app:destination="@id/authFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="com.example.asahi.presentation.fragments.authorization.authnumber.AuthFragment"
+        android:label="fragment_auth"
+        tools:layout="@layout/fragment_auth" >
+
+        <action
+            android:id="@+id/action_authFragment_to_OTPFragment"
+            app:destination="@id/OTPFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.asahi.presentation.fragments.onboarding.screens.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" />
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.asahi.presentation.fragments.onboarding.screens.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" />
+
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.example.asahi.presentation.fragments.onboarding.screens.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" />
+
+    <fragment
+        android:id="@+id/OTPFragment"
+        android:name="com.example.asahi.presentation.fragments.authorization.otp.OTPFragment"
+        android:label="fragment_o_t_p"
+        tools:layout="@layout/fragment_o_t_p" >
+
+        <action
+            android:id="@+id/action_OTPFragment_to_searchHomeFragment"
+            app:destination="@id/searchHomeFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchHomeFragment"
+        android:name="com.example.asahi.presentation.fragments.search.SearchHomeFragment"
+        android:label="fragment_search_home"
+        tools:layout="@layout/fragment_search_home" />
+
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.asahi.presentation.fragments.favorite.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/myToursFragment"
+        android:name="com.example.asahi.presentation.fragments.tours.MyToursFragment"
+        android:label="fragment_my_tours"
+        tools:layout="@layout/fragment_my_tours" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.asahi.presentation.fragments.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/serverErrorFragment"
+        android:name="com.example.asahi.presentation.fragments.server.ServerErrorFragment"
+        android:label="fragment_server_error"
+        tools:layout="@layout/fragment_server_error" />
+
+    <fragment
+        android:id="@+id/filterFragment"
+        android:name="com.example.asahi.presentation.fragments.search.filter.FilterFragment"
+        android:label="fragment_filter"
+        tools:layout="@layout/fragment_filter" />
+
+    <fragment
+        android:id="@+id/simpleSearchFragment"
+        android:name="com.example.asahi.presentation.fragments.search.simplesearch.SimpleSearchFragment"
+        android:label="fragment_simple_search"
+        tools:layout="@layout/fragment_simple_search" />
+
+</navigation>

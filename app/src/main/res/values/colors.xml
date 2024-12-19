@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#11490D</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="green">#4CAF50</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#B6B6B6</color>
+    <color name="parlament">#1B6B93</color>
+    <color name="light_blue">#DEECF2</color>
+    <color name="calendar">#DEECF2</color>
+    <color name="blue">#1B6B93</color>
+    <color name="gray">#61414649</color>
+    <color name="home_text_color">#023246</color>
+    <color name="on_boarding_blue_color">#39CCE8</color>
+    <color name="skip_text_color">#234146</color>
+    <color name="nav_background_color">#130F26</color>
+    <color name="search_view_color">#828383</color>
+    <color name="home_fragment_color">#CEE1EC</color>
+    <color name="light_grey">#F6F6F6</color>
+    <color name="red">#CD2323</color>
+    <color name="red_back">#1EF75555</color>
+    <color name="green_back">#1F4ADE80</color>
+    <color name="logo_color">#042A5C</color>
+    <color name="white_for_btn">#F5F5F5</color>
+    <color name="green_for_et_right_answer">#23962E</color>
+    <color name="dark_blue_for_button">#042A5C</color>
+    <color name="light_green_for_button_filter">#517E73</color>
+    <color name="light_blue_for_button">#2F4E78</color>
+    <color name="neutral_n60">#B0B0B0</color>
+    <color name="light_green_for_button_save_personal_info">#5C9084</color>
+    <color name="button_next">#2F4E78</color>
+    <color name="firmennyi_green">#84CEBC</color>
+</resources>

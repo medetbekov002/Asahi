@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">Asahi</string>
+    <string name="image">image</string>
+    <string name="authorization">Авторизация</string>
+    <string name="auth_desc">Мы отправим код на этот номер для дальнейшей авторизации</string>
+    <string name="text_continue">Продолжить</string>
+    <string name="rext_skip">Пропустить</string>
+    <string name="text_enter_code">Введите код отправленный на номер</string>
+    <string name="filter_by_text">Сортировка</string>
+    <string name="default_text">По умолчанию</string>
+    <string name="cheap_first_text">Сначала дешевые</string>
+    <string name="expensive_first_text">Сначала дорогие</string>
+    <string name="difficulty_level_text_filter">Уровень сложности</string>
+    <string name="easy_text_btn_filter">Легкий</string>
+    <string name="tech_text">Мы столкнулись с внутренней серверной ошибкой. Приносим искренние извинения за доставленные неудобства.</string>
+    <string name="tech_error">Попробуйте позже</string>
+    <string name="checking_server">Проверка сервера…</string>
+    <string name="server_ok">Сервер работает нормально</string>
+    <string name="server_error">Ошибка сервера. Попробуйте позже.</string>
+    <string name="no_internet_message">Нет подключения к интернету. Пожалуйста, проверьте соединение.</string>
+    <string name="price_text_filters">Цена</string>
+    <string name="duraition_text_filters">Длительность</string>
+    <string name="clear_filters_text"><u>Очистить всё</u></string>
+    <string name="order_individual_tour">Заказать индивидуальный тур</string>
+    <string name="contact_with_manager">Связаться с менеджером</string>
+    <string name="text_desc_tour_tools">Rutrum pellentesque eu orci ipsum. Turpis blandit interdum scelerisque scelerisque viverra mauris. Rhoncus at orci dignissim sed. Adipiscing sed pellentesque id quisque etiam sem semper enim vitae.</string>
+    <string name="tour_ditails_rally_point">Точки сбора</string>
+    <string name="tour_ditails_equipment">Экипировка тура</string>
+    <string name="tour_ditail_included_in_price">Что входит в стоимость</string>
+    <string name="tour_ditail_not_included_in_price">Что не входит в стоимость</string>
+    <string name="terms">условиями</string>
+    <string name="terms_and_privacy_policy">Продолжая, вы соглашаетесь с условиями и политикой конфиденциальности</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="my_tours">Мои туры</string>
+    <string name="no_my_tours_future">На данный момент у вас нет предстоящих поездок.</string>
+    <string name="no_my_tours_past">На данный момент у вас нет прошедших поездок.</string>
+    <string name="no_my_tours_individual_title">Индивидуальный тур на заказ</string>
+    <string name="no_my_tours_individual_desc">Планируете уникальное путешествие? Мы поможем создать тур, полностью соответствующий вашим пожеланиям. Заполните заявку, и наш менеджер свяжется с вами для обсуждения всех деталей.</string>
+
+    <string name="field_must_be_filled">Поле должно быть заполнено</string>
+    <string name="invalid_email">Неправильный адрес электронной почты</string>
+    <string name="incorrect_name">Некорректное имя</string>
+    <string name="write_in_latin">Напишите на латинице: a-Z</string>
+    <string name="name_must_contain_at_least_2_characters">Имя должно содержать минимум 2 символа</string>
+    <string name="complete_your_phone_number">Допишите номер телефона до конца</string>
+    <string name="please_accept_the_data_processing_policy">Пожалуйста примите политику обработки данных</string>
+    <string name="please_accept_the_gender">Пожалуйста выберите пол</string>
+    <string name="password_do_not_match">Пароли не совпадают</string>
+    <string name="password_must_not_be_less_than_6_characters">Пароль не должен быть меньше 6 символов</string>
+
+    <string name="save">Сохранить</string>
+    <string name="number_emp">+996 XXX XXX XXX</string>
+    <string name="number_phone">Номер телефона</string>
+    <string name="birthday_emp">Выберите дату рождения</string>
+    <string name="birthday">Дата рождения</string>
+    <string name="e_mail_emp">Введите E-mail</string>
+    <string name="e_mail">E-mail</string>
+    <string name="last_name_emp">Введите фамилию</string>
+    <string name="last_name">Фамилия</string>
+    <string name="first_name_emp">Введите имя</string>
+    <string name="first_name">Имя</string>
+    <string name="personal_data">Персональные данные</string>
+    <string name="profile">Профиль</string>
+    <string name="auth">Авторизоваться</string>
+    <string name="user_name_emp">Азиз Азизов</string>
+    <string name="about_us">О нас</string>
+    <string name="user_number_emp">+996 700 000 000</string>
+    <string name="contacts">Контакты</string>
+    <string name="question_and_answer">Вопросы и ответы</string>
+    <string name="notifications">Уведомления</string>
+    <string name="privacy_and_policy">Политика конфиденциальности</string>
+    <string name="terms_of_use">Условия использования</string>
+    <string name="out_or_exit">Выйти</string>
+    <string name="privacy_policy">политикой конфиденциальности</string>
+
+
+    <string name="About_us">О нас</string>
+    <string name="About_us_description">Добро пожаловать в мир путешествий с нами! Мы - ваш партнер в открытии Кыргызстана.
+        Предлагаем уникальные туры по живописным местам этой прекрасной страны, окутанной таинственностью и красотой.
+        \n\nМы разработали первое мобильное предложение, которое облегчит вам навигацию и поможет максималььно комфортно и интересно провести время
+        во время вашего путешествия. Доверьтесь нам и погрузитесь в захватывающий мир Кыргызстана!</string>
+    <string name="faq">Вопросы и ответы</string>
+    <string name="faq_answers">Здесь ответ на этот вопрос</string>
+    <string name="faq_answers_option">Option</string>
+    <string name="how_to_use_promocode">Как воспользоваться промо-кодом?</string>
+    <string name="how_to_register_profile">Как зарегистрировать профиль?</string>
+    <string name="push_notifications">Push-уведомления</string>
+    <string name="sms_notifications">SMS-уведомления</string>
+    <string name="privacy_policy_title">Политика\nконфиденциальности</string>
+    <string name="terms_of_use_title">Условия использования</string>
+    <string name="privacy_policy_description">
+    <b>1. Сбор и использование информации:</b>\n\n
+          •  Мы собираем только необходимую \n&#160;&#160;&#160;информацию для предоставления услуг \n&#160;&#160;&#160;и улучшения пользовательского опыта.\n
+          •  Мы можем собирать информацию, такую \n&#160;&#160;&#160;как имя, адрес электронной почты, \n&#160;&#160;&#160;данные о местоположении и \n&#160;&#160;&#160;предпочтения пользователя.
+    \n\n<b>2. Хранение и защита информации:</b>\n\n
+          •  Мы принимаем меры для защиты вашей \n&#160;&#160;&#160;личной информации от \n&#160;&#160;&#160;несанкционированного доступа и &#160;&#160;&#160;использования.\n
+          •  Вся информация, которую вы \n&#160;&#160;&#160;предоставляете, хранится на \n&#160;&#160;&#160;защищенных серверах.
+    \n\n<b>3. Использование информации:</b>\n\n
+          •  Мы используем собранную информацию \n&#160;&#160;&#160;для предоставления услуг, обратной \n&#160;&#160;&#160;связи и улучшения качества наших \n&#160;&#160;&#160;продуктов и услуг.\n
+          •  Мы не продаем, не передаем или не \n&#160;&#160;&#160;раскрываем вашу личную информацию \n&#160;&#160;&#160;третьим лицам без вашего согласия.
+    \n\n<b>4. Контактная информация:</b>\n\n
+          •  Мы можем использовать вашу контактную \n&#160;&#160;&#160;информацию для отправки уведомлений, \n&#160;&#160;&#160;новостей о продуктах и услугах, а также \n&#160;&#160;&#160;маркетинговых материалов, если вы дали \n&#160;&#160;&#160;на это согласие.
+    \n\n<b>5. Изменения в политике конфиденциальности:</b>\n\n
+          •  Мы оставляем за собой право \n&#160;&#160;&#160;вносить изменения в нашу политику \n&#160;&#160;&#160;конфиденциальности. Все изменения \n&#160;&#160;&#160;будут опубликованы на нашем веб-сайте \n&#160;&#160;&#160;или в приложении.
+    \n\n<b>6. Согласие с политикой:</b>\n\n
+          •  Используя наше мобильное приложение, \n&#160;&#160;&#160;вы автоматически соглашаетесь с нашей \n&#160;&#160;&#160;политикой конфиденциальности.
+
+    </string>
+
+    <string name="terms_of_use_description">
+    <b>1. Регистрация и аккаунт:</b>\n\n
+        • Для использования нашего мобильного \n&#160;&#160;&#160;приложения необходимо создать \n&#160;&#160;&#160;аккаунт, указав ваше имя, адрес \n&#160;&#160;&#160;электронной почты и пароль.\n
+        • Вы обязуетесь предоставить \n&#160;&#160;&#160;достоверную и актуальную информацию \n&#160;&#160;&#160;при регистрации.
+\n
+\n\n<b>2. Ответственность пользователя:</b>\n\n
+        • Вы обязуетесь не нарушать законы и \n&#160;&#160;&#160;права третьих лиц при использовании \n&#160;&#160;&#160;приложения.\n
+        • Вы несете ответственность за \n&#160;&#160;&#160;конфиденциальность вашего аккаунта и \n&#160;&#160;&#160;пароля.\n
+        • Использование приложения на свой \n&#160;&#160;&#160;страх и риск.
+\n
+\n\n<b>3. Информация и контент:</b>\n\n
+        • Мы не несем ответственности за \n&#160;&#160;&#160;точность и достоверность информации, \n&#160;&#160;&#160;предоставляемой через приложение.\n
+        • Весь контент, доступный в приложении, \n&#160;&#160;&#160;защищен авторскими правами.
+\n
+\n\n<b>4. Платежи и отмена заказов:</b>\n\n
+        • При использовании платных услуг \n&#160;&#160;&#160;приложения вы соглашаетесь с условиями \n&#160;&#160;&#160;оплаты.\n
+        • Возврат средств и отмена заказов \n&#160;&#160;&#160;регулируются нашими политиками.
+\n
+\n\n<b>5. Обновления и изменения:</b>\n\n
+        • Мы оставляем за собой право вносить \n&#160;&#160;&#160;изменения в условия использования и \n&#160;&#160;&#160;функционал приложения без \n&#160;&#160;&#160;предварительного уведомления.
+\n
+\n\n<b>6. Прекращение использования:</b>\n\n
+        • Мы оставляем за собой право \n&#160;&#160;&#160;приостановить или прекратить ваш доступ \n&#160;&#160;&#160;к приложению в случае нарушения условий \n&#160;&#160;&#160;использования или законов.
+\n\n\nПродолжая использование нашего приложения, вы автоматически соглашаетесь с нашими условиями использования. Пожалуйста, внимательно ознакомьтесь с ними перед началом использования приложения."
+
+    </string>
+
+    <string name="my_google_maps_api_key">AIzaSyAgzF_qA5rdja3Izrk2DN3qA6TUynI6VDc</string>
+
+    <string name="payment" translatable="false">Оплата</string>
+    <string name="payment_method" translatable="false">Метод оплаты</string>
+    <string name="paymentCard" translatable="false">Оплата картой</string>
+    <string name="other_payment" translatable="false">Другой Способ</string>
+    <string name="Cancel">Отменить</string>
+    <string name="all" translatable="false">Итого</string>
+    <string name="all_price" translatable="false">Полная стоимость</string>
+    <string name="discount_price" translatable="false">Со скидкой</string>
+    <string name="promo_price" translatable="false">С промокодом</string>
+    <string name="_1790c" translatable="false">1790c</string>
+    <string name="promocode" translatable="false">Введите промокод</string>
+    <string name="no_internet_text">Сеть недоступна. Убедитесь, что Wi-Fi включен или мобильные данные активны.</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="plus">+</string>
+    <string name="minus" translatable="false">-</string>
+    <string name="_1" translatable="false">1</string>
+    <string name="_0" translatable="false">0</string>
+    <string name="whatsapp" translatable="false">Перейти на WhatsApp</string>
+    <string name="success">Покупка оформлена успешно!</string>
+    <string name="saveToure" translatable="false">Вы можете посмотреть детали тура во вкладке “Мои туры”.</string>
+    <string name="to_main">На главную</string>
+    <string name="we_are_in_social_networks">Мы в социальных сетях</string>
+    <string name="whatsapp2">WhatsApp</string>
+    <string name="instagram">Instagram</string>
+    <string name="telegram">Telegram</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="homesearch">Поиск</string>
+    <string name="favorite">Избранное</string>
+    <string name="mytours">Мои туры</string>
+    <string name="profiles">Профиль</string>
+
+</resources>
