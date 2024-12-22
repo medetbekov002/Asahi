@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.asahi.databinding.FragmentThirdBinding
 import com.example.asahi.presentation.fragments.onboarding.ViewPagerFragment
+import com.example.asahi.presentation.fragments.onboarding.ViewPagerFragmentDirections
 //import com.example.asahi.presentation.fragments.onboarding.ViewPagerFragmentDirections
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -34,7 +35,7 @@ class ThirdFragment : Fragment() {
         }
 
         binding.btnSecondNext.setOnClickListener {
-//            findNavController().navigate(ViewPagerFragmentDirections.actionViewPagerFragmentToAuthFragment())
+            findNavController().navigate(ViewPagerFragmentDirections.actionViewPagerFragmentToAuthFragment())
             onBoardingFinished()
         }
     }

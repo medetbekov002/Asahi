@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-<!--    <item-->
-<!--        android:id="@+id/searchHomeFragment" />-->
-<!--        android:icon="@drawable/ic_search"-->
-<!--        android:title="@string/homesearch" />-->
+    <item
+        android:id="@+id/searchHomeFragment" />
+        android:icon="@drawable/ic_search"
+        android:title="@string/homesearch" />
 
-<!--    <item-->
-<!--        android:id="@id/favoriteFragment" />-->
-<!--        android:icon="@drawable/ic_heart"-->
-<!--        android:title="@string/favorite" />-->
+    <item
+        android:id="@id/favoriteFragment" />
+        android:icon="@drawable/ic_heart"
+        android:title="@string/favorite" />
 
-<!--    <item-->
-<!--        android:id="@id/myToursFragment" />-->
-<!--        android:icon="@drawable/ic_tours"-->
-<!--        android:title="@string/mytours" />-->
+    <item
+        android:id="@id/myToursFragment" />
+        android:icon="@drawable/ic_tours"
+        android:title="@string/mytours" />
 
-<!--    <item-->
-<!--        android:id="@id/profileFragment" />-->
-<!--        android:icon="@drawable/ic_user"-->
-<!--        android:title="@string/profiles" />-->
+    <item
+        android:id="@id/profileFragment" />
+        android:icon="@drawable/ic_user"
+        android:title="@string/profiles" />
 
 </menu>
